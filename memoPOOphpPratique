@@ -1,0 +1,25 @@
+Memo framework php
+
+composer init
+
+composer require --dev phpunit/phpunit
+
+
+php -S localhost:8000 -d display_errors=1 -t public/
+
+composer.json 
+"autoload":{
+        "psr-4": {
+            "Framework\\": "src/Framework"
+        }
+    },
+composer dump-autoload
+index.php: require '../vendor/autoload.php';
+
+
+composer require guzzlehttp/psr7
+composer require http-interop/response-sender
+
+composer require  squizlabs/php_codesniffer
+
+./vendor/bin/phpunit tests/Framework/AppTest.php
