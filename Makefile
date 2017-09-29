@@ -14,7 +14,7 @@ test: install
 server: install ##Lance le serveur interne à php
 	php -S localhost:8000 -t public/ -d display_errors=1
 
-sniffer: install
+phpcs: install
 	./vendor/bin/phpcs
 
 Gtest: install ##test phpunit et phpcs
