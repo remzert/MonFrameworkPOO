@@ -1,4 +1,4 @@
-.PHONY: server test install sniffer Gtest
+.vendor.bin.phpcbf.PHONY: server test install sniffer Gtest
 
 vendor: composer.json
 	composer install

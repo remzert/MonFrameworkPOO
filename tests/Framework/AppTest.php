@@ -7,8 +7,8 @@ use Framework\App;
 use GuzzleHttp\Psr7\ServerRequest;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ResponseInterface;
-use Framework\Modules\ErroredModule;
-use Framework\Modules\StringModule;
+use Tests\Framework\Modules\ErroredModule;
+use Tests\Framework\Modules\StringModule;
 
 class AppTest extends TestCase
 {
