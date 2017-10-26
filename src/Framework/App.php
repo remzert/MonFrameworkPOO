@@ -69,4 +69,13 @@ class App
             return new Response(200, [], '<h1>Bienvenue sur le blog</h1>');
         }*/
     }
+    
+    /**
+     *
+     * @return \Psr\Container\ContainerInterface
+     */
+    public function getContainer(): \Psr\Container\ContainerInterface
+    {
+        return $this->container;
+    }
 }

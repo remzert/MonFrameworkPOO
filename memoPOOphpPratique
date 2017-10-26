@@ -30,4 +30,19 @@ route: composer require zendframework/zend-expressive-fastroute
 Injection de dépendance: conteneur PSR11
 composer require php-di/php-di
 
+Phinx Php Database Migrations  composer require --dev robmorgan/phinx
+
+mysql -uroot -proot
+CREATE DATABASE POOpratique;
+
+
+vendor/bin/phinx migrate
+vendor/bin/phinx create MyFirstMigration
+
+vendor/bin/phinx seed:create MyNewSeeder
+
+composer require --dev fzaninotto/faker
+
+vendor/bin/phinx seed:run
+
 
