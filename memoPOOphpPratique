@@ -43,6 +43,6 @@ vendor/bin/phinx seed:create MyNewSeeder
 
 composer require --dev fzaninotto/faker
 
-vendor/bin/phinx seed:run
+ 				
 
 
