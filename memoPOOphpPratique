@@ -40,8 +40,11 @@ vendor/bin/phinx migrate
 vendor/bin/phinx create MyFirstMigration
 
 vendor/bin/phinx seed:create MyNewSeeder
+vendor/bin/phinx seed:run
 
 composer require --dev fzaninotto/faker
+
+pagination: composer require pagerfanta/pagerfanta
 
  				
 
