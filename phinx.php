@@ -27,6 +27,7 @@ return [
             'user' => $app->getContainer()->get('database.username'),
             'pass' => $app->getContainer()->get('database.password')
         ]
+        
     ]
 ];
 
