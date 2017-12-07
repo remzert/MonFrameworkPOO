@@ -7,7 +7,9 @@ use function Http\Response\send;
 require dirname(__DIR__) . '/vendor/autoload.php';
 
 $modules = [
+    \App\Admin\AdminModule::class,
     \App\Blog\BlogModule::class
+    
 ];
 
 $builder = new DI\ContainerBuilder;
